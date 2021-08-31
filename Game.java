@@ -19,7 +19,7 @@ class Game {
 	 * Sets up a new game (piece selection, color, etc).
 	 */
 	public void newGame() {
-
+		//is this where i put the players drawing pieces to know who goes first?
 	}
 
 	/**
