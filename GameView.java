@@ -113,8 +113,8 @@ public class GameView extends JFrame{
         btnWest.setEnabled(b);
     }
 
-    public void setPlayerTurninfo(String color)
+    public void setPlayerTurninfo(Player player)
     {
-        turn.setText(color + "'s Turn");
+        turn.setText(player.getColor() + "'s Turn");
     }
 }
